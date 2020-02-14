@@ -11,6 +11,10 @@
     <meta name="author" content="Rocio Alvarez">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+    <meta name="viewport" content="initial-scale=1">
+
   </head>
   <!-- This is the body of my website-->
   <body>
@@ -18,8 +22,8 @@
 
     <!-- This is my header -->
 <header>
-  <nav>
-<ul>
+  <nav class="navigation">
+<ul class="horizontalline">
   <li> <a href="https://www.apple.com"> Apple </a> </li>
 <li> <a href="https://www.youtube.com"> Youtube </a> </li>
 <li> <a href="https://twitter.com"> Twitter </a> </li>
@@ -27,10 +31,9 @@
   </nav>
 </header>
 
-    <section>
-    <!-- to create sidebars -->
 
-<aside>
+<aside class="sidebar">
+  <h3>SideBar</h3>
   <ul>
     <li>item 1</li>
     <li>item 2</li>
@@ -43,30 +46,36 @@
   </ol>
 </aside>
 
-    <!-- we use articles magazines articles, posts, etc..-->
+<div class="container">
+<section>
+<h1>Title</h1>
 
-<article>
-  <h1>Title</h1>
+
+<article id="bunny">
+
   <h2>Subtitle</h2>
 
   <p>
     <!-- This is for best practices -->
 
-<strong>holaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholahola</strong>
-<em>holaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholahola</em>
-<b>holaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholahola</b>
-<i>holaholaholaholaholaholaholaholaholaholaholahola</i>
+     <strong>Benito Antonio Martínez Ocasio, known by his stage name Bad Bunny, is an American Latin trap and reggaeton singer from Puerto Rico. He is considered one of the pioneers of latin trap music.</strong>
+     <em>Bad Bunny will be returning to AmericanAirlines Arena Saturday, March 16! In 2018, Bad Bunny's "La Nueva Religión" tour proved to be a phenomenal success.</em>
+     <b>Le llaman el conejito malo en latino america pero en los estados unidos es el bad bunny.</b>
+     <i>Siempre va a los grammys con el outfit mas fire.</i>
   </p>
 
-<img src="img/badbuny.jpg" alt="Bad Bunny chilling" width="350px">
+<img src="img/badbuny.jpg" alt="Bad Bunny chilling" width="350">
 
 </article>
 
-<section>
-
 </section>
 
+</div>
+
+<section>
+  <h2>Contact Information</h2>
 <address>
+
 <ul>
   <li>Name: Rocio Alvarez</li>
   <li>Phone number: +34 662 528 322</li>
