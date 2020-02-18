@@ -2,45 +2,159 @@
 
 
 body {
-  background-color: grey;
+  background-color: pink;
 }
+
 h1
 {
   color: black;
-  font-family:'Bebas Neue';
+  font-family:'Druk Wide';
+  font-size: 50px;
+  text-emphasis: 'x';
+  -webkit-text-emphasis: 'x';
+   text-align: center;
 }
 
+.img-ro {
+width: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 
+}
 
 .container
 {
-    background-color: pink;
+
+    background-color: black;
     width: 700px;
     margin: auto;
     padding: 20px;
     /*box-shadow: 56px 7px 5px 2px #ededed;*/
     border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
 }
 
-.container h1 {
-font-size: 4em;
+.container h2
+{
+color: white;
+font-size: 30px;
+text-decoration: underline;
+font-family: 'Druk Wide';
+}
+
+.skills h3
+{
+  color: black;
+  font-size: 30px;
+  font-family:'Druk Wide';
+  text-align: center;
+
+}
+
+.skills {
+  color: black;
+  font-size: 20px;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  /*box-shadow: 56px 7px 5px 2px #ededed;*/
+  border-radius: 10px;
+   text-align: center;
+}
+
+.skillstable {
+  color: black;
+  font-size: 20px;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  /*box-shadow: 56px 7px 5px 2px #ededed;*/
+  border-radius: 10px;
+   text-align: center;
+
+}
+
+.hobbies h3
+{
+  color: black;
+  font-size: 30px;
+    font-family:'Druk Wide';
+     text-align: center;
+}
+
+
+.hobbiestable {
+  color: black;
+  font-size: 20px;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  /*box-shadow: 56px 7px 5px 2px #ededed;*/
+  border-radius: 10px;
+   text-align: center;
+}
+
+
+.hobbiestable
+table {
+    table-layout: fixed;
+    width: 120px;
+    border: 1px solid black;
+  }
+
+  td {
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+
+.sidebar h2
+{
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Druk Wide';
 
 }
 
 .sidebar {
   float: left;
-
-  background-color: pink;
-  width: 10%;
+  background-color: black;
+  width: 90%;
   margin-left: 40px;
+  margin-top: 40px;
   padding: 20px;
   /*box-shadow: 5px 7px 5px 2px #ededed;*/
   border-radius: 10px;
-
+  color: white;
+  font-size: 20px;
 }
 
 
-.navigation {
+.coninfo h2
+{
+  color: black;
+  font-size: 30px;
+    font-family:'Druk Wide';
+     text-align: center;
+}
+
+.masinfo li
+{
+  color: black;
+  font-size: 20px;
+   text-align: center;
+}
+
+
+.navigation
+{
 display: table;
 margin : 0 auto;
 margin-top: 30px;
@@ -49,36 +163,33 @@ margin-bottom: 80px;
 
 }
 
-.horizontalline {
+
+.horizontalline
+{
 padding-top: 20px;
 
 }
 
-.horizontalline li {
+.horizontalline li
+{
 display: inline;
 margin: 40px;
 padding: 20px 60px 20px 60px;
-background-color: white;
+background-color: black;
 width: 10%;
-
+color: white;
 }
 
-.horizontalline li a {
-color: grey;
+.horizontalline li a
+{
+color: white;
 text-decoration: none;
-font-family: sans-serif;
+  font-family:'Druk Wide';
+
 
 }
 
-.horizontalline li a:hover {
+.horizontalline li a:hover
+{
   color: red;
-}
-
-/*this is an id*/
-#bunny {
-
-  background-color: grey ;
-  width: 80%;
-  padding: 18px;
-  margin: auto ;
 }
